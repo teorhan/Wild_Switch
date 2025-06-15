@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 481478402967890957}
   m_Layer: 0
   m_Name: borust 1_0
-  m_TagString: Untagged
+  m_TagString: DeadArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 8067058545412919698}
   - component: {fileID: 67849360906514869}
   m_Layer: 0
-  m_Name: scorearea
+  m_Name: ScoreArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 9016970654042831813}
   m_Layer: 0
   m_Name: borualt (1)
-  m_TagString: Untagged
+  m_TagString: DeadArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

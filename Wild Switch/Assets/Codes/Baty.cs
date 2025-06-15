@@ -22,4 +22,12 @@ public class Baty : MonoBehaviour
             managerGame.UpdateScore();
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "DeadArea")
+        {
+            isDead = true;
+            Time.timeScale = 0;
+        }
+    }
 }
