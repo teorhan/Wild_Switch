@@ -6,6 +6,14 @@ public class Baty : MonoBehaviour
     public Rigidbody2D rb2D;
     public bool isDead;
     public GameManager managerGame;
+    public GameObject DeathScreen;
+
+
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
+
     void Update()
     {
         // T�klamay� al
@@ -28,6 +36,8 @@ public class Baty : MonoBehaviour
         {
             isDead = true;
             Time.timeScale = 0;
+
+            DeathScreen.SetActive(true);
         }
     }
 }
